@@ -1,0 +1,96 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html {
+	font: 14px 'Microsoft YaHei', Verdana;
+	color:#333;
+}
+
+table{
+	border-collapse: collapse;
+}
+
+html,body {
+	height: 100%;
+	min-width: 70em;
+}
+
+input,textarea,select,button {
+	font-size: inherit;
+	font-family: inherit;
+}
+
+/*文本框、按钮、下拉列表*/
+input[type="text"],input[type="password"],button,textarea,select {
+	color: #333;
+	outline: none;
+	padding: .5em .7em;
+	border: 0.07142857142857142em solid #d6d6d6;
+	transition: all 250ms;
+}
+
+/*鼠标悬停在文本框、按钮、下拉列表*/
+input[type="text"]:hover,input[type="password"]:hover,textarea:hover,select:hover
+	{
+	border: 0.07142857142857142em solid #818181;
+}
+
+/*文本框、按钮、下拉列表获取焦点时蓝色边框*/
+input[type="text"]:focus,input[type="password"]:focus,textarea:focus,select:focus
+	{
+	border: 0.07142857142857142em solid #0070c9;
+}
+
+/*文本框出错时的样式*/
+.txtErr {
+	border: 0.07142857142857142em solid red !important;
+}
+
+/*按钮通用样式*/
+button {
+	color: white;
+	cursor: pointer;
+	border-color: #0a9aea;
+	background-color: #0a9aea;
+}
+
+/*按钮悬停*/
+button:hover {
+	border-color: #147bce;
+	background-color: #147bce;
+}
+
+/*鼠标按下*/
+button:active {
+	border-color: #0268b9;
+	background-color: #0268b9;
+}
+
+/*按钮禁用*/
+.btnDisable {
+	border-color: #a7a7a7 !important;
+	background-color: #cacaca !important;
+}
+
+.btnDisable:hover{
+	cursor: not-allowed!important;
+}
+
+textarea {
+	resize: none;
+}
+
+li {
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
+}
+
+.hidden {
+	display: none !important;
+}

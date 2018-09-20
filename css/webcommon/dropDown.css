@@ -1,0 +1,74 @@
+.ddl{
+	position: relative;
+    border: .15em solid #adadad;
+    color: #333;
+    background-color: #fff;
+}
+
+.ddl:hover{
+	cursor: pointer;
+}
+
+.ddlTitle{
+	display: inline-block;
+    padding: .5em 0.7em;
+    user-select:none;
+}
+
+.arrow{
+	position: absolute;
+    width: 0;
+    height: 0;
+    border: 0.4em solid;
+    border-color: #ccc transparent transparent;
+    top: 1.1em;
+    right:1em;
+    transition: all 250ms;
+}
+
+.arrowSelect{
+	transform:rotate(180deg);
+	-ms-transform:rotate(180deg); /* IE 9 */
+	-moz-transform:rotate(180deg); /* Firefox */
+	-webkit-transform:rotate(180deg); /* Safari and Chrome */
+	-o-transform:rotate(180deg); /* Opera */
+	top: 0.6em!important;
+	transition: all 250ms;
+}
+
+.arrow:hover{
+	cursor: pointer;
+	border-color: #666 transparent transparent;
+}
+
+.selectList{
+    border: .15em solid #adadad;
+    max-height: 10.4em;
+    overflow: auto;
+    background-color: #fff;
+    z-index: 99;
+    position: absolute;
+    width: 101.8%;
+    left: -.15em;
+    transition: all 250ms;
+    opacity: 0;
+    /* top: 2.35em; */
+}
+
+.ddlItem{
+/* 	border: .15em solid #e5e5e5;
+    margin-top: -.15em; */
+    padding: 0.35em 1.5em;
+    user-select:none;
+}
+
+.ddlItem:hover{
+	background-color: #323942;
+    color: #fff;
+    cursor: pointer;
+}
+
+.ddlSelect{
+	background-color: #323942;
+    color: #fff;
+}

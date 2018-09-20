@@ -1,0 +1,54 @@
+.data-gl-ss-container{
+	position: relative;
+	display:inline-block;
+	overflow: hidden;
+}
+
+.data-gl-ss-imglist{
+	
+}
+
+.data-gl-ss-img-panel{
+	display: none;
+	opacity: 0;
+    transition: all 250ms;
+}
+
+.data-gl-ss-img-panel:hover{
+	cursor: pointer;
+}
+
+.data-gl-ss-img{
+    width: 28.371429em;
+    height: 28.371429em;
+    padding: 0 2em;
+    user-select:none;
+}
+
+.arrow{
+    position: absolute;
+    top: 50%;
+    font-size: 3em;
+    color:#b0b0b0;
+    transition: all 250ms;
+}
+
+.arrow:hover{
+	cursor: pointer;
+	color:#333;
+}
+
+.leftArrow{
+	/* left: .2em; */
+	left: -0.4em;
+}
+
+.rightArrow{
+	/* right: .2em; */
+	right: -0.4em; 
+}
+
+.imgSelect{
+	display: inline-block;
+	opacity: 1;
+}

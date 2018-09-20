@@ -1,0 +1,142 @@
+.data-suju-goodsList-container {
+	width: 87em;
+    margin: 10em auto;
+}
+
+.data-suju-gl-gbox {
+	display: inline-block;
+    border: .05em solid #e5e5e5;
+    margin-left: -0.3em;
+    border-bottom: 0;
+    margin-top: -.1em;
+    border-right: 0;
+}
+
+.data-suju-gl-imgpanel {
+	margin-top: 2em;
+	position: relative;
+}
+
+.data-suju-gl-img {
+	width: 28.571428571428573em;
+    height: 28.571428571428573em;
+    padding: 2em;
+    user-select:none;
+}
+
+.data-suju-gl-name {
+	width: 28.571428571428573em;
+    padding: 2em 4em 0;
+    text-align: center;
+    height: 6em;
+    user-select:none;
+    font-weight: 550;
+    color:#333;
+}
+
+.data-suju-gl-name:hover{
+	color:#0070c9;
+	cursor: pointer;
+}
+
+.data-suju-gl-price {
+	text-align: center;
+    margin-bottom: 5em;
+    user-select:none;
+    font-weight: 550;
+    color:#0070c9;
+}
+
+.data-suju-gl-img:hover,.data-suju-gl-price:hover{
+	cursor: pointer;
+}
+
+.data-suju-gl-img{
+	
+}
+
+/* 分页样式 */
+.data-suju-gl-pageLine{
+	width: 20em;
+	margin: 0 auto;
+	position: relative;
+	user-select:none;
+}
+
+.pageLine-prev,.pageLine-next{
+	display: inline-block;
+    font-size: 2em;
+    color: #666;
+    background-color: #fff;
+    padding: 0 .5em;
+    border-radius: 0.7em;
+    position: absolute;
+    width: 1.3571428571428572em;
+    height: 1.3571428571428572em;
+}
+
+.pageLine-prev:hover,.pageLine-next:hover{
+	background-color: #e5e5e5;
+	cursor: pointer;
+}
+
+.pageLine-prev{
+	top: 2.3em;
+}
+
+.pageLine-next{
+    top: 2.3em;
+    right: 0;
+}
+
+.pageLine-prev i,.pageLine-next i{
+	position: absolute;
+    top: 0.15em;
+}
+
+.pageLine-next i{
+	left: .6em;
+}
+
+.pageLine-curPage{
+    width: 2.8em;
+    margin: 0 .3em;
+    border-radius: 0.5em;
+}
+
+.pageSpan{
+	display: inline-block;
+    padding: 5em 7.3em 3em;
+}
+
+.pageLine-totalPage{
+	display: inline-block;
+	margin: 0 .3em;
+}
+
+/* 搜索结果为空时的样式  */
+.data-suju-gl-tip-panel{
+	padding: 3em 0 41em 3em;
+    border-left: .0625em solid #e5e5e5;
+}
+
+.gl-tip-txt{
+	
+}
+.cheTxt-subTitle{
+	padding: 0.5em 0;
+}
+
+.a-link{
+	color:#0070c9;
+	padding: 0 0.7em 0 0;
+}
+
+.a-link:visited{
+	color:#0070c9;
+}
+
+.a-link:hover{
+	cursor: pointer;
+	text-decoration: underline;
+}

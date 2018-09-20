@@ -1,0 +1,93 @@
+body {
+	padding: 1em;
+}
+
+h1 {
+	font-size: 1.4em;
+	font-weight: normal;
+	padding-bottom: .7em;
+}
+
+.subTitle {
+	font-size: .8em;
+	color: gray;
+	padding-bottom: 1.5em;
+}
+
+#condition {
+	height: 6em;
+}
+
+.col {
+	width: 33.3333333%;
+	float: left;
+}
+
+.lblCol {
+	float: left;
+	width: 5em;
+}
+
+.txtCol {
+	margin-left: 5em;
+	padding-right: 1.5em;
+	height: 2em;
+}
+
+.lblCol label {
+	padding: 0.5em 0 0.9em 0;
+	display: block;
+}
+
+.txtRow {
+	margin-bottom: .5em;
+}
+
+.txt {
+	width: 100%;
+	background-color: #fcfcfc;
+	border: 0.08em solid #d0d0d0;
+}
+
+.conditionSlt {
+	width: 8em;
+	float: left;
+}
+
+.gridTitleBtnContainer{
+	text-align: right;
+    margin-top: -3em;
+}
+
+.gridTitleBtn{
+	padding: .5em 1.5em;
+}
+
+.selectList{
+	width: 100.5%;
+    left: -0.1em;
+	border: 0.07142857142857142em solid #d6d6d6;
+}
+
+.ddlTitle {
+    padding: 0.5em 0.7em;
+}
+
+.ddl {
+    border: 0.07142857142857142em solid #d6d6d6;
+}
+
+.arrow {
+    top: 1em;
+    right: 0.6em;
+}
+
+#ddlPageSize .selectList{
+	left:-.1em;
+	width: 102%;
+}
+
+/* 用户头像的样式 */
+.data-user-grid-img{
+	width: 2em;
+}

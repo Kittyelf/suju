@@ -1,0 +1,224 @@
+/* 订单页面的表格样式 */
+.data-order-tb{
+	margin: 0 auto;
+}
+
+.data-order-thead{
+	background-color: #f2f2f2;
+}
+
+.data-order-thead tr{
+	
+}
+
+.data-order-thead th{
+	padding: 0.7em 2em;
+}
+
+.data-order-tbody{
+	
+}
+
+.sep-row{
+	height: 1.5em;
+}
+
+.tr-th{
+	background-color: #f2f2f2;
+}
+
+.tr-th td{
+	border: .0625em solid #e5e5e5;
+    border-bottom-color: #fff;
+}
+
+.data-order-createTime{
+	display: inline-block;
+    padding: 0.6em 1.2em;
+    color: #666;
+}
+
+.data-order-id{
+	display: inline-block;
+    padding: 0.6em 1.2em;
+    color: #666;
+    font-size: .8em;
+}
+
+.data-order-del{
+	display: inline-block;
+    padding: 0.6em 1.5em;
+    float: right;
+    color: #666;
+}
+
+.data-order-del:hover{
+    color: #0070c9;
+    cursor: pointer;
+}
+
+.tr-bd{
+	position: relative;
+}
+
+.tr-bd td{
+	position: relative;
+	border: .0625em solid #e5e5e5;
+}
+
+.goods-item{
+	display: inline-block;
+    position: relative;
+    width: 37em;
+    padding: 1em 0 1em 1em;
+}
+
+.p-img{
+	display: inline-block;
+}
+
+.goodsImg{
+	
+}
+
+.p-msg{
+	display: inline-block;
+    width: 30em;
+    position: absolute;
+    padding: 0.7em 1em;
+}
+
+.p-name{
+	display: inline-block;
+}
+
+.a-link{
+	font-size: .8em;
+    color: #333;
+    width: 30em;
+    display: inline-block;
+}
+
+.a-link:hover{
+	color: #0070c9!important;
+}
+
+.a-link:visited{
+	color: #333;
+}
+
+.goods-number{
+	display: inline-block;
+    position: absolute;
+    top: 2.5em;
+    color: #0070c9;
+    right: 1.8em;
+    font-size: .8em;
+}
+
+.rowspan{
+	vertical-align: top;
+	padding: 1em 0;
+	position: relative;
+}
+
+.consignee{
+	text-align: center;
+	height: 2em;
+}
+
+.consignee :hover{
+	cursor: pointer;
+	color: #0070c9;
+}
+
+.amount{
+	text-align: center;
+}
+
+.status{
+	text-align: center;
+}
+
+.order-status{
+	display: inline-block;
+    padding: 0 0 0.6em;
+}
+
+.orderdetailed:hover{
+	cursor: pointer;
+	text-decoration: underline;
+	color: #0070c9;
+}
+
+.btnRebuy{
+	display: block;
+    margin: 0 3em;
+}
+
+.btnCancel{
+	display: block;
+    margin: 0.5em auto;
+}
+
+.btnCancel i,.btnRebuy i{
+	display: inline-block;
+    padding: 0 0.3em;
+}
+
+.btnRebuy,.btnCancel{
+	background: #f2f2f2;
+    color: #666;
+    border-color: #d2d2d2;
+    padding: .3em 0.5em;
+    width: 7em;
+}
+
+.btnRebuy:hover,.btnCancel:hover{
+    background-color: #fff;
+    border-color: #0070c9;
+    color: #0070c9;
+}
+
+.btnRebuy:active,.btnCancel:active{
+	background-color: #fff;
+    border-color: #0070c9;
+    color: #0070c9;
+}
+
+/* 收货用户信息的弹出小框 */
+.consignee-panel{
+	position: absolute;
+    width: 20em;
+    border: .1em solid #d2d2d2;
+    padding: 0.5em 1em;
+    background: #fff;
+    z-index: 999;
+    top: 1em;
+    left: 4em;
+    color: #666;
+    opacity:0;
+    transition:all 250ms;
+}
+
+.consignee-panel div{
+	padding: 0.1em 0;
+}
+
+.data-suju-order-tip{
+	padding: 1em 1.8em;
+}
+
+.index-link{
+	padding: 0 0.5em;
+	color:#0070c9;
+}
+
+.index-link:visited{
+	color:#0070c9;
+}
+
+.index-link:hover{
+	cursor: pointer;
+	text-decoration: underline;
+}

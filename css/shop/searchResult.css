@@ -1,0 +1,211 @@
+/* 显示全部信息的一小条的样式 */
+#data-suju-subTitle-container{
+	border-bottom: .0625em solid #d6d6d6;
+}
+
+.data-suju-subTitle-container{
+    width: 70em;
+    margin: 0 auto;
+    user-select: none;
+    position: relative;
+    height: 3.7em;
+}
+
+.subTitle-goods-txt{
+	display: inline-block;
+    font-size: 1.5em;
+    padding: 0.6em 0;
+    font-weight: 300;
+    position: absolute;
+    left: 0;
+}
+
+.subTitle-little-txt-panel{
+	display: inline-block;
+    float: right;
+    padding: 1.7em 1em;
+    font-size: .8em;
+    font-weight: 100;
+}
+
+.subTitle-little-txt-panel:hover{
+	cursor: pointer;
+}
+
+/* 页脚上部分的样式 */
+.tabcontainer{
+	background-color: #f2f2f2;
+	margin-top: -2.5em;
+}
+
+.tabpanel{
+	width: 70em;
+	margin: 3em auto 0;
+	user-select:none;
+	position: relative;
+	height: 25em;
+}
+
+.tabpanel-item{
+	display: inline-block;
+	width: 14em;
+	position: absolute;
+	top: 0;
+	padding: 3em 0 0 0;
+}
+
+.tabpanel-item-title{
+	font-size: .8em;
+	color:#666;
+}
+
+.tabpanel-item ul{
+	padding: 1em 0;
+}
+
+.tabpanel-item li{
+	font-size: .8em;
+	color:#999;
+	padding: .3em 0;
+}
+
+.tabpanel-item li:hover{
+	cursor: pointer;
+	text-decoration: underline;
+}
+
+.tabpanel-item.item2{
+	left: 14em;
+}
+
+.tabpanel-item.item3{
+	left: 28em;
+}
+
+.tabpanel-item.item4{
+	left: 42em;
+}
+
+.tabpanel-item.item5{
+	left: 56em;
+}
+
+#data-suju-subTitle-bg-img{
+    background: url(../../img/sr_bg.jpg) center center no-repeat;
+    height: 22em;
+}
+
+/*筛选栏的样式*/
+#data-suju-sub-container{
+	border-bottom: .1em solid #e5e5e5;	
+}
+
+.data-suju-sub-container{
+	width: 102.85714285714286em;
+    margin: 0 auto;
+}
+
+.data-suju-sub-panel{
+	display: inline-block;
+    color: #666;
+    padding: 1.5em 0;
+    width: 49.8%;
+}
+
+.data-suju-sub-panel.left{
+	
+}
+
+.data-suju-sub-panel.right{
+	text-align: right;
+}
+
+.data-suju-sub-panel.left i{
+	
+}
+
+.data-suju-sub-panel.right i{
+	
+}
+
+.sub-title{
+	font-size: .9em;
+}
+
+.icon-list-ul-panel{
+	display: inline-block;
+	padding: 0 0 0 0.5em;
+}
+
+.icon-list-ul-panel span{
+	font-size: .8em;
+    color: #333;
+}
+
+/* 商品列表 */
+#data-goodsList-container{
+	width: 102.85714285714286em;
+    margin: 0 auto;
+    position: relative;
+}
+
+#goodsList{
+	width: 87em;
+    display: inline-block;
+    margin-left: 17em;
+}
+
+.as-search-filter-container{
+	padding: 2.5em 2.5em 0 0;
+    display: inline-block;
+    position: absolute;
+}
+
+.as-accordion-list{
+	
+}
+
+.as-accordion-item{
+	user-select: none;
+    padding: 0.9em 0;
+    border-bottom: .0625em solid #e5e5e5;
+}
+
+.accordion-item-txt{
+	font-weight: 550;
+    color: #333;
+    display: inline-block;
+    padding: 0 6em 0 0;
+}
+
+.accordion-item-icon{
+	color: #666;
+    float: right;
+    display: inline-block;
+    transition: all 200ms;
+}
+
+.iconSelect{
+	transform:rotate(45deg);
+	-ms-transform:rotate(45deg); /* IE 9 */
+	-moz-transform:rotate(45deg); /* Firefox */
+	-webkit-transform:rotate(45deg); /* Safari and Chrome */
+	-o-transform:rotate(45deg); /* Opera */
+}
+
+.as-accordion-item:hover{
+	cursor: pointer;
+}
+
+.as-search-filter-items{
+	padding-top: 1em;
+}
+
+.as-search-filter-item{
+	color: #666;
+    padding: 0.3em 0.1em;
+}
+
+.as-search-filter-item:hover{
+	color: #0070c9;
+}

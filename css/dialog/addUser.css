@@ -1,0 +1,239 @@
+html,body{
+	min-width: 0;
+}
+
+body {
+	padding: 2em 2em;
+}
+
+input[type="text"] ,input[type="password"]{
+	width: 80%;
+	margin-left: 1em;
+}
+
+#txtPanel {
+	width: 36em;
+    float: left;
+    padding: 1.5em 0 0 3em;
+}
+
+.sex {
+	position: absolute;
+	top: 0.4em;
+}
+
+#sex {
+	position: relative;
+}
+
+#sltSex {
+	float: right;
+    margin-right: 1.3em;
+    width: 26.4em;
+    border-color: #d6d6d6;
+}
+
+.line {
+	position: relative;
+	margin-bottom: .8em;
+	height: 2.1716666667em;
+}
+
+.btnSuccess {
+	background-color: #25b788 !important;
+	border-color: #009688 !important;
+}
+
+.btnError {
+	background-color: #d80f00 !important;
+	border-color: #c10d00 !important;
+}
+
+.ddlTxt {
+	background-color: #fff !important;
+}
+
+label {
+	display: inline-block;
+	width: 4em;
+}
+
+/* DDL样式的优化 */
+.ddl,.selectList{
+	border: 0.07142857142857142em solid #d6d6d6;
+}
+
+.selectList{
+	width: 100.6%;
+    left: -0.06em;
+}
+/* 按钮的样式 */
+.btnline{
+	position: absolute;
+    top: 21.8em;
+    right: 2.5em;
+}
+
+.btnline button {
+	margin-top: 1em;
+    border-color: #323942;
+    background-color: #323942;
+    padding: 0.5em 1.4em;
+}
+
+.btnline button:hover{
+	border-color: #4f5760;
+    background-color: #4f5760;
+}
+
+/* IE8下的占位符 */
+.placeholder {
+	display:none;
+    position: absolute;
+    top: 0.6em;
+    color: darkgray;
+    display: block\0;
+    left: 6em;
+    z-index: 1;
+}
+
+/*IE10以上版本中隐藏灰色占位符*/
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+	.placeholder {
+		display: none;
+	}
+}
+
+/* 包邮行的样式 */
+.sltline{
+	padding: 0.8em 0 0.4em;
+}
+
+/* ID，密码为空时的容器样式 */
+.errorPanel{
+	position: absolute;
+    z-index: 2;
+	top:-2.4em;
+    left: 7.7em;
+    opacity:0;
+    transition:all 250ms;
+    width: 20em;
+}
+
+/* ID，密码为空时的容器样式 ，文本*/
+.errorTxt{
+	background-color: #f4dbdb;
+    padding: 0.8em 2em;
+    font-size: .8em;
+    color: #626262;
+}
+
+/* ID，密码为空时的容器样式 ，三角形*/
+.errorArrow{
+	width: 0;
+    height: 0;
+    border-width: .5em;
+    border-style: solid;
+    border-color: #f4dbdb transparent transparent transparent;
+    margin: 0 auto;
+}
+
+.errorInput{
+	/* background-color: #ffffc5; */
+	box-shadow: inset 0 0.08em 0.15em red!important;
+	border-color: #ff8686!important;
+}
+
+/* 上传图片 */
+.goods_img {
+	width: 7em;
+	height: 7em;
+	margin: 1em 0.3em 0 0.2em;
+}
+
+.goodsImgListPanel {
+	float: right;
+    width: 18em;
+    height: 19em;
+    overflow-y: auto;
+}
+
+.goodsImgListTitle {
+	display: inline-block;
+	padding-top: 1.5em;
+}
+
+.goodsImgListSubTItle {
+	display: inline-block;
+	color: #666;
+	font-size: .5em;
+	margin-left: 0.7em;
+}
+
+.myGoodsImgList {
+	width: 25em;
+	float: right;
+	margin-top: 0em;
+}
+
+.imgContainer {
+	float: left;
+	position: relative;
+}
+
+.imgHoverBG {
+	position: absolute;
+	width: 7em;
+	height: 7em;
+	top: 1em;
+    left: 0.2em;
+	background-color: rgba(0, 0, 0, .4);
+	display: none;
+}
+
+.imgTxt {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin: .2em 0 0 -1em;
+	color: #f4eff1;
+	display: none;
+	cursor: pointer;
+}
+
+.imgContainer:hover .imgHoverBG,.imgContainer:hover .imgTxt {
+	display: block;
+}
+
+#myIframe {
+	display: none;
+}
+
+#btnAdd {
+	width: 7em;
+	height: 7em;
+	margin: 1em 0 0 0.2em;
+	float: left;
+	border-color: #d6d6d6;
+	background-color: #fff;
+}
+
+#btnAdd:hover {
+	border-color: #818181;
+	cursor: pointer;
+}
+
+#btnAdd:active {
+	background-color: #ddeefc;
+    border-color: #0070c9;
+}
+
+.btnAddTtx {
+	font-size: 4em;
+	font-weight: 200;
+	color: #9e9e9e;
+}
+
+.red{
+	color:red!important;
+}

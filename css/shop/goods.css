@@ -1,0 +1,352 @@
+/* 页脚上部分的样式 */
+.tabcontainer{
+	background-color: #f2f2f2;
+	margin-top: -2.5em;
+}
+
+.tabpanel{
+	width: 70em;
+	margin: 3em auto 0;
+	user-select:none;
+	position: relative;
+	height: 25em;
+}
+
+.tabpanel-item{
+	display: inline-block;
+	width: 14em;
+	position: absolute;
+	top: 0;
+	padding: 3em 0 0 0;
+}
+
+.tabpanel-item-title{
+	font-size: .8em;
+	color:#666;
+}
+
+.tabpanel-item ul{
+	padding: 1em 0;
+}
+
+.tabpanel-item li{
+	font-size: .8em;
+	color:#999;
+	padding: .3em 0;
+}
+
+.tabpanel-item li:hover{
+	cursor: pointer;
+	text-decoration: underline;
+}
+
+.tabpanel-item.item2{
+	left: 14em;
+}
+
+.tabpanel-item.item3{
+	left: 28em;
+}
+
+.tabpanel-item.item4{
+	left: 42em;
+}
+
+.tabpanel-item.item5{
+	left: 56em;
+}
+
+/* 显示全部信息的一小条的样式 */
+#data-suju-subTitle-container{
+	border-bottom: .0625em solid #d6d6d6;
+}
+
+.data-suju-subTitle-container{
+	width: 70em;
+    margin: 0 auto;
+    user-select:none;
+}
+
+.subTitle-goods-txt{
+	display: inline-block;
+    font-size: 1.5em;
+    padding: 0.6em 0;
+    font-weight: 300;
+}
+
+.subTitle-little-txt-panel{
+	display: inline-block;
+    float: right;
+    padding: 1.7em 1em;
+    font-size: .8em;
+    font-weight: 100;
+}
+
+.subTitle-little-txt-panel:hover{
+	cursor: pointer;
+}
+
+/* 商品详细信息的容器 */
+.data-suju-goods-mian-container{
+	width: 70em;
+	margin: 0 auto;
+}
+
+/* 基本信息总界面的样式 */
+#goods-message-panel{
+	height: 53.5em;
+	position: relative;
+	border-bottom: .1em solid #e5e5e5;
+}
+
+.goods-message-txt-panel{
+	position: absolute;
+	display: inline-block;
+	top: 5em;
+	color: #333;
+	user-select:none;
+}
+
+#goodsName{
+	font-size: 2.2em;
+}
+
+#goodsPrice{
+	padding: .2em 0;
+    font-size: 1.2em;
+    font-weight: 500;
+}
+
+.blueTxtTip{
+	color: #0a9aea;
+    font-size: .8em;
+    user-select: none;
+    margin: 1.5em 0 4em;
+}
+
+.blueTxtTip:hover{
+	text-decoration: underline;
+}
+
+.addShopCar{
+	padding: 0.5em 8em;
+	border-radius: .3em;
+	background: #34A7E8;
+	background: -webkit-linear-gradient(#34A7E8, #1A88D8);
+	background: -o-linear-gradient(#34A7E8, #1A88D8);
+	background: -moz-linear-gradient(#34A7E8, #1A88D8);
+	background: linear-gradient(#34A7E8, #1A88D8);
+	border: .1em solid #1992D9;
+}
+
+.addShopCar:hover{
+	cursor: pointer;
+	background: #1a6bd6;
+	background: -webkit-linear-gradient(#2f90d5, #0351b7);
+	background: -o-linear-gradient(#2f90d5, #0351b7);
+	background: -moz-linear-gradient(#2f90d5, #0351b7);
+	background: linear-gradient(#2f90d5, #0351b7);
+}
+
+.addShopCar:active{
+	cursor: pointer;
+	-webkit-box-shadow: 0 .07em 0 #fff, inset 0 0 .7em rgba(0, 0, 0, 0.5);
+	-moz-box-shadow: 0 .07em 0 #fff, inset 0 0 .75em rgba(0, 0, 0, 0.5);
+	box-shadow: 0 .07em 0 #fff, inset 0 0 .75em rgba(0, 0, 0, 0.5);
+}
+
+.addShopCar.success{
+	background: #56e272;
+    background: -webkit-linear-gradient(#56e272, #2ba20e);
+    background: -o-linear-gradient(#56e272, #2ba20e);
+    background: -moz-linear-gradient(#56e272, #2ba20e);
+    background: linear-gradient(#56e272, #2ba20e);
+    border: .1em solid #4ec331;
+}
+
+.addShopCar.error{
+	background: #fa6648;
+    background: -webkit-linear-gradient(#fa6648, #aa2a0d);
+    background: -o-linear-gradient(#fa6648, #aa2a0d);
+    background: -moz-linear-gradient(#fa6648, #aa2a0d);
+    background: linear-gradient(#fa6648, #aa2a0d);
+    border: .1em solid #cf3432;
+}
+
+.dateTipPanel{
+	padding: 1.8em 0;
+    border-bottom: 0.0625em solid #e5e5e5;
+    width: 27em;	
+}
+
+.dateTipPanel i{
+    display: block;
+    font-size: 1.7em;
+    color: #999;
+}
+
+.dateTipPanel span{
+	display: inline-block;
+    padding: 0.8em 0 0;
+    font-size: .9em;
+}
+
+.dateTipPanel ul{
+	
+}
+
+.dateTipPanel li{
+	font-size: .8em;
+    padding: 0.15em 0;
+    color: #666;
+}
+
+.otherTipPanel{
+	padding: 2.5em 0 .3em;
+	position: relative;
+}
+
+.otherTipPanel i{
+	font-size: 1.8em;
+    color: #999;
+    position: absolute;
+}
+
+.otherTipPanel>span{
+	width: 21em;
+    display: inline-block;
+    padding: 0 2.2em;
+}
+
+.otherTip{
+	font-size: .9em;
+    padding: 1.3em 0;
+}
+
+/* 产品信息界面 */
+#goods-produce-panel{
+	border-bottom: .1em solid #e5e5e5;
+	padding: 2em 0;
+	position: relative;
+}
+
+/* 兼容性界面 */
+#goods-compatibility-panel{
+	border-bottom: .1em solid #e5e5e5;
+	padding: 2em 0;
+	position: relative;
+}
+
+.as-compability-mainpanel{
+	padding-left: 10em;
+}
+
+.compatible-list{
+	display: inline-block;
+    vertical-align: top;
+    width: 32%;
+    text-align: left;
+    margin-top: 2.5em;
+}
+
+.as-pdp-compatibility-title{
+	padding-bottom: 1em;
+}
+
+.as-pdp-compatibility-productlistitems{
+	padding: 0.5em;
+}
+
+.as-pdp-compatibility-productlistlinks{
+	
+}
+
+/* 评级与评论界面 */
+#goods-comment-panel{
+	border-bottom: .1em solid #e5e5e5;
+	padding: 2em 0;
+	position: relative;
+}
+
+.title span{
+	font-size: 1.6em;
+	user-select:none;
+}
+
+.title-icon{
+    position: absolute;
+    right: 1em;
+    top: 1em;
+    font-size: 1.8em;
+    color: #666;
+    user-select: none;
+}
+
+.title:hover{
+	cursor: pointer;
+}
+
+#goods-recommend-panel{
+	
+}
+
+.recommend-title{
+	text-align: center;
+    padding: 1.8em 0 0.7em;
+    font-size: 2em;
+}
+
+.iconSelect{
+	transform:rotate(45deg);
+	-ms-transform:rotate(45deg); /* IE 9 */
+	-moz-transform:rotate(45deg); /* Firefox */
+	-webkit-transform:rotate(45deg); /* Safari and Chrome */
+	-o-transform:rotate(45deg); /* Opera */
+}
+
+.data-suju-goods-panel{
+	position: relative;
+}
+
+/* 评级与评论 */
+.data-suju-menu-itemList{
+	margin-top: 3em;
+}
+
+/* 产品信息 */
+.goods-panel-tip-title{
+	display: inline-block;
+    font-size: 1.4em;
+    color: #666;
+    position: absolute;
+    top: 3.4em;
+    left: .2em;
+}
+
+.goods-panel-tip-panel{
+	display: inline-block;
+    width: 55em;
+    margin-left: 10em;
+    padding: 5em 0 0;
+/*     border-bottom: .0625em solid #e5e5e5; */
+}
+
+.tip-title-line{
+	font-weight: 550;
+    padding-bottom: 1em;
+    font-size: 1.1em;
+}
+
+.tip-line{
+	color: #444;
+    padding-bottom: 2em;
+}
+
+/* 兼容性 */
+
+
+
+
+.goods-panel-tip{
+	padding: 1em 0 0;
+}

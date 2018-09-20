@@ -1,0 +1,84 @@
+.header_container {
+	background-color: #000;
+}
+
+.header_panel {
+	width: 70em;
+	height: 3.142857142857143em;
+	color: #fff;
+	margin: 0 auto;
+}
+
+.header_panel li+li {
+	margin-left: 4.6em;
+}
+
+.fa.fa-apple {
+	font-size: 1.5em;
+	margin-top: -0.1em;
+}
+
+.header_li:hover {
+	cursor: pointer;
+	color: #B6B6B6;
+}
+
+.header_ul {
+	list-style: none;
+	width: 100%;
+	height: 3.142857142857143em;
+}
+
+.header_li {
+	float: left;
+	font-weight: 200;
+	padding: 0.9em 0.7142857142857143em;
+	user-select: none;
+}
+
+#personal-center-container{
+	position: relative;
+    width: 70em;
+    margin: 0 auto;
+}
+
+.personal-center-panel{
+	position: absolute;
+    z-index: 999;
+    border: .1em solid #d2d2d2;
+    background-color: #fff;
+    padding: 0.3em 0;
+    right: -3em;
+    transition:all 250ms;
+    -khtml-opacity:0;
+    -moz-opacity:0;
+    filter:alpha(opacity=0);
+    filter:"alpha(opacity=0)";
+    opacity:0; 
+    filter: progid:DXImageTransform.Microsoft.Alpha(opacity=0);
+    top:-4.5em;
+    margin: 4em 0 0;
+}
+
+.personal-center-item{
+	padding: 0.5em 1em;
+    margin: 0 1.5em;
+    color: #0070c9;
+}
+
+#personal-center-container li+li{
+	border-top: .0625em solid #d2d2d2;
+}
+
+.personal-center-item:hover{
+	cursor: pointer;
+	text-decoration: underline;
+}
+
+.fa.fa-user-o{
+	-webkit-text-stroke: .0625em #0070c9;
+}
+
+.personal-center-item i{
+	padding-right: 0.6em;
+}

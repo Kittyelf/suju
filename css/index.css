@@ -1,0 +1,72 @@
+.footercontainer {
+    margin-top: -3em;
+}
+
+#data-index-slideshow-container{
+	margin-top: 3em;
+}
+
+.data-suju-index-img-panel{
+	margin-top: 5em;
+}
+
+.data-suju-index-img-panel table{
+	margin: 0 auto;
+}
+
+.tabcontainer{
+	background-color: #f2f2f2;
+	margin-top: -2.5em;
+}
+
+.tabpanel{
+	width: 70em;
+	margin: 3em auto;
+	user-select:none;
+	position: relative;
+	height: 25em;
+}
+
+.tabpanel-item{
+	display: inline-block;
+	width: 14em;
+	position: absolute;
+	top: 0;
+	padding: 3em 0 0 0;
+}
+
+.tabpanel-item-title{
+	font-size: .8em;
+	color:#666;
+}
+
+.tabpanel-item ul{
+	padding: 1em 0;
+}
+
+.tabpanel-item li{
+	font-size: .8em;
+	color:#999;
+	padding: .3em 0;
+}
+
+.tabpanel-item li:hover{
+	cursor: pointer;
+	text-decoration: underline;
+}
+
+.tabpanel-item.item2{
+	left: 14em;
+}
+
+.tabpanel-item.item3{
+	left: 28em;
+}
+
+.tabpanel-item.item4{
+	left: 42em;
+}
+
+.tabpanel-item.item5{
+	left: 56em;
+}

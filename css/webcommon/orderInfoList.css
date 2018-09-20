@@ -1,0 +1,187 @@
+.data-orderinfo-tbody{
+	
+}
+
+.tr-bd{
+	position: relative;
+    display: inline-block;
+    padding: 1em;
+    background-color: #f6f6f6;
+    margin: 0.2em 0;
+}
+
+.goods-item-msg{
+    position: relative;
+}
+
+.goods-item{
+	width: 46em;
+    position: relative;
+}
+
+.p-img{
+	padding: 0 1em;
+}
+
+.goodsImg{
+	
+}
+
+.p-msg{
+	display: inline-block;
+    width: 35em;
+    position: absolute;
+    top: 1em;
+    left: 7em;
+}
+
+.p-name{
+	
+}
+
+.a-link{
+	color:#333;
+}
+
+.a-link:visited{
+	color:#666;
+}
+
+.a-link:hover{
+	color:#0070c9!important;
+	cursor: pointer;
+	text-decoration: underline;
+}
+
+.goods-number{
+	display: inline-block;
+    position: absolute;
+    top: 1.5em;
+    right: 0;
+}
+
+.goods-price{
+	padding: 0 3em;
+	color:#0070c9;
+}
+
+.p-price{
+	width: 3.4em;
+	display: inline-block;
+}
+
+.tip{
+	padding: 0 1em;
+    color: #999;
+}
+
+.orderinfo-price-panel{
+	padding: 1em 0;
+    border-bottom: .1em solid #d2d2d2;
+}
+
+.price-line{
+	width: 100%;
+    text-align: right;
+    padding: 0.5em 1em;
+}
+
+.subtitle{
+	display: inline-block;
+    width: 10em;
+    text-align: right;
+    color: #666;
+}
+
+.unit-panel{
+	display: inline-block;
+    width: 8em;
+    text-align: right;
+}
+
+.goods-num{
+	color: #0070c9;
+    padding: 0 0.5em;
+}
+
+.real-price-panel{
+	background-color: #f6f6f6;
+    padding: 0 0 1em;
+}
+
+.real-price{
+    text-align: right;
+}
+
+.realSubtitle{
+	color: #666;
+    padding: 0 1em;
+}
+
+.real-unit-panel{
+	display: inline-block;
+    font-size: 1.5em;
+    font-weight: 550;
+    color: #0070c9;
+    padding: 1em 0.5em 0;
+    text-align: right;
+}
+
+.real-unit{
+	
+}
+
+.real-price-txt{
+	
+}
+
+.address-info{
+	color: #999;
+    padding: 0.7em 0.8em;
+    text-align: right;
+}
+
+.address-subtitle{
+	
+}
+
+.address-info-detail{
+	
+}
+
+.username-subtitle{
+	padding: 0 0 0 2em;
+}
+
+.username-info{
+	
+}
+
+.btn-orderinfo{
+    padding: 0.5em 3em;
+	border-radius: .3em;
+	background: #34A7E8;
+	background: -webkit-linear-gradient(#34A7E8, #1A88D8);
+	background: -o-linear-gradient(#34A7E8, #1A88D8);
+	background: -moz-linear-gradient(#34A7E8, #1A88D8);
+	background: linear-gradient(#34A7E8, #1A88D8);
+	border: .1em solid #1992D9;
+	float: right;
+    margin: 1em 0 2em;
+}
+
+.btn-orderinfo:hover{
+	cursor: pointer;
+	background: #1a6bd6;
+	background: -webkit-linear-gradient(#2f90d5, #0351b7);
+	background: -o-linear-gradient(#2f90d5, #0351b7);
+	background: -moz-linear-gradient(#2f90d5, #0351b7);
+	background: linear-gradient(#2f90d5, #0351b7);
+}
+
+.btn-order:active{
+	cursor: pointer;
+	-webkit-box-shadow: 0 .07em 0 #fff, inset 0 0 .7em rgba(0, 0, 0, 0.5);
+	-moz-box-shadow: 0 .07em 0 #fff, inset 0 0 .75em rgba(0, 0, 0, 0.5);
+	box-shadow: 0 .07em 0 #fff, inset 0 0 .75em rgba(0, 0, 0, 0.5);
+}

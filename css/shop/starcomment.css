@@ -1,0 +1,153 @@
+body{
+	background-color: #f2f2f2;
+}
+
+/* 页脚上部分的样式 */
+.tabcontainer{
+	background-color: #f2f2f2;
+	margin-top: -2.5em;
+}
+
+.tabpanel{
+	width: 70em;
+	margin: 3em auto 0;
+	user-select:none;
+	position: relative;
+	height: 25em;
+}
+
+.tabpanel-item{
+	display: inline-block;
+	width: 14em;
+	position: absolute;
+	top: 0;
+	padding: 3em 0 0 0;
+}
+
+.tabpanel-item-title{
+	font-size: .8em;
+	color:#666;
+}
+
+.tabpanel-item ul{
+	padding: 1em 0;
+}
+
+.tabpanel-item li{
+	font-size: .8em;
+	color:#999;
+	padding: .3em 0;
+}
+
+.tabpanel-item li:hover{
+	cursor: pointer;
+	text-decoration: underline;
+}
+
+.tabpanel-item.item2{
+	left: 14em;
+}
+
+.tabpanel-item.item3{
+	left: 28em;
+}
+
+.tabpanel-item.item4{
+	left: 42em;
+}
+
+.tabpanel-item.item5{
+	left: 56em;
+}
+
+#data-suju-subTitle-bg-img{
+    background: url(../../img/sr_bg.jpg) center center no-repeat;
+    height: 22em;
+}
+
+
+/* 标题 */
+.comment-subContainer{
+	width: 70em;
+    margin: 5em auto 0;
+    border: 0;
+    box-shadow: 0.07142857142857142em 0 0 0 #d2d2d2, -0.07142857142857142em 0 0 0 #d2d2d2, 0 0.07142857142857142em 0 0 #b6b6b6, 0 0.14285714285714285em 0 0 #d2d2d2, 0.14285714285714285em 0 0 0 #e6e6e6, -0.14285714285714285em 0 0 0 #e6e6e6, 0 0.21428571428571427em 0 0 #e6e6e6, 0 -0.07142857142857142em 0 0 #e6e6e6;
+    background: #fff;
+    border-radius: 0.2857142857142857em;
+}
+
+.comment-sub-title{
+	font-size: 1.3em;
+    padding: 0.7em 1.1em;
+}
+
+/* 评论列表  */
+#comment-list-container{
+	width: 70em;
+    margin: 1em auto 0;
+    border: 0;
+    box-shadow: 0.07142857142857142em 0 0 0 #d2d2d2, -0.07142857142857142em 0 0 0 #d2d2d2, 0 0.07142857142857142em 0 0 #b6b6b6, 0 0.14285714285714285em 0 0 #d2d2d2, 0.14285714285714285em 0 0 0 #e6e6e6, -0.14285714285714285em 0 0 0 #e6e6e6, 0 0.21428571428571427em 0 0 #e6e6e6, 0 -0.07142857142857142em 0 0 #e6e6e6;
+    background: #fff;
+    border-radius: 0.2857142857142857em;
+}
+
+.comment-list-container{
+	
+}
+
+.comment-list-title-panel{
+	color: #999;
+    padding: 2em 2em 0em;
+    font-size: .9em;
+}
+
+.comment-order-id{
+	color: #333;
+}
+
+.comment-order-time{
+	color: #333;
+    padding-left: 1em;
+}
+
+#comment-submit{
+	
+}
+
+.comment-submit{
+	width: 70em;
+    margin: 1em auto 0;
+    border: 0;
+    box-shadow: 0.07142857142857142em 0 0 0 #d2d2d2, -0.07142857142857142em 0 0 0 #d2d2d2, 0 0.07142857142857142em 0 0 #b6b6b6, 0 0.14285714285714285em 0 0 #d2d2d2, 0.14285714285714285em 0 0 0 #e6e6e6, -0.14285714285714285em 0 0 0 #e6e6e6, 0 0.21428571428571427em 0 0 #e6e6e6, 0 -0.07142857142857142em 0 0 #e6e6e6;
+    background: #fff;
+    border-radius: 0.2857142857142857em;
+    padding: 1.2em;
+    text-align: center;
+}
+
+.comment-btn{
+	padding: 0.5em 4em;
+	border-radius: .3em;
+	background: #34A7E8;
+	background: -webkit-linear-gradient(#34A7E8, #1A88D8);
+	background: -o-linear-gradient(#34A7E8, #1A88D8);
+	background: -moz-linear-gradient(#34A7E8, #1A88D8);
+	background: linear-gradient(#34A7E8, #1A88D8);
+	border: .1em solid #1992D9;
+}
+
+.comment-btn:hover{
+	cursor: pointer;
+	background: #1a6bd6;
+	background: -webkit-linear-gradient(#2f90d5, #0351b7);
+	background: -o-linear-gradient(#2f90d5, #0351b7);
+	background: -moz-linear-gradient(#2f90d5, #0351b7);
+	background: linear-gradient(#2f90d5, #0351b7);
+}
+
+.comment-btn:active{
+	cursor: pointer;
+	-webkit-box-shadow: 0 .07em 0 #fff, inset 0 0 .7em rgba(0, 0, 0, 0.5);
+	-moz-box-shadow: 0 .07em 0 #fff, inset 0 0 .75em rgba(0, 0, 0, 0.5);
+	box-shadow: 0 .07em 0 #fff, inset 0 0 .75em rgba(0, 0, 0, 0.5);
+}

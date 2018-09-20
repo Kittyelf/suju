@@ -1,0 +1,160 @@
+#shopcarList{
+	
+}
+
+.shopcar-item{
+	position: relative;
+	border-bottom: .0625em solid #d2d2d2;
+}
+
+.shopcar-img-panel{
+	display: inline-block;
+    padding: 3em;
+}
+
+.shopcar-img{
+	width: 8em;
+    height: 8em;
+}
+
+.shopcar-msg-panel{
+	display: inline-block;
+    width: 75%;
+}
+
+.shopcar_msg_up{
+	position: absolute;
+    top: 3em;
+    padding: 0 0.5em 1em;
+    border-bottom: .0625em solid #d2d2d2;
+    width: 51.35071428571428em;
+}
+
+.shopcar-msg-name{
+	display: inline-block;
+    font-size: 1.1em;
+    font-weight: 550;
+    width: 20em;
+}
+
+.shopcar-msg-price{
+	display: inline-block;
+    font-size: .8em;
+    position: absolute;
+    bottom: 1.65em;
+    left: 31em;
+}
+
+.shopcar_msg_up input[type="text"]{
+	display: inline-block;
+    width: 2.5em;
+    padding: 0.5em 0.4em;
+    font-size: 0.9em;
+    border-radius: 0.3em;
+    margin: 0 14em 0 15em;
+    position: absolute;
+    bottom: 1em;
+}
+
+.shopcar-msg-total{
+	display: inline-block;
+    position: absolute;
+    right: 0.5em;
+    bottom: 1.2em;
+    font-weight: 550;
+}
+
+.shopcar-msg-down{
+	position: absolute;
+    top: 7em;
+    padding: 0 .5em;
+}
+
+.shopcar-msg-date{
+	display: inline-block;
+	color: #666;
+	padding-top: .5em;
+}
+
+.shopcar-msg-del{
+	display: inline-block;
+    position: absolute;
+    right: -41.5em;
+    color: #0070c9;
+    top: .5em;
+}
+
+.shopcar-msg-name:hover{
+	cursor: pointer;
+	color: #0070c9;
+}
+
+.shopcar-msg-del:hover{
+	cursor: pointer;
+	text-decoration: underline;	
+}
+
+.shopcar-pay-line{
+	float: right;
+    padding: 0.5em 0 1em;
+}
+
+.shopcar-pay-postage-part{
+	color: #0070c9;
+    padding: 0.5em 0.3em;
+    border-bottom: .0625em solid #d2d2d2;
+    font-size: .8em;
+}
+
+.shopcar-pay-postage{
+	display: inline-block;
+    padding-left: 7em;
+}
+
+.shop-pay-total-part{
+	text-align: center;
+    font-size: 1.1em;
+    font-weight: 550;
+    padding: 0.4em 0;
+}
+
+.shopcar-pay-total{
+	display: inline-block;
+    padding-left: 0.7em;
+}
+
+.cart-empty{
+	padding: 10em 0;
+}
+
+.message{
+	width: 40em;
+    margin: 0 auto;
+    position: relative;
+    height: 7em;
+}
+
+.icon-img{
+	position: absolute;
+    top: 3em;
+    left: 6em;
+}
+
+.icon-tip{
+	position: absolute;
+    top: 3em;
+    left: 14em;
+    color: #666;
+}
+
+.icon-goshopping{
+	position: absolute;
+    top: 5.2em;
+    left: 13.9em;
+    color: #0070c9;
+}
+
+.icon-goshopping:hover{
+	cursor: pointer;
+	text-decoration: underline;
+}

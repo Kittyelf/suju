@@ -1,0 +1,57 @@
+.data-suju-menu-container li+li{
+	margin-left: 0;
+}
+
+.data-suju-menu-container {
+	position: relative;
+}
+
+.data-suju-menu-itemList {
+    color: #999;
+    font-size: 1.1em;
+    font-weight:500;
+    border-bottom: 0.1em solid #e5e5e5;  
+    z-index: 10;
+}
+
+.data-suju-menu-item {
+	display: inline-block;
+    padding: .7em 1.5em;
+    user-select: none;
+    border-bottom: .1em solid #e5e5e5;
+    margin: -.1em;
+    transition: all 250ms;
+    z-index: 10;
+}
+
+.data-suju-menu-item:hover {
+	cursor: pointer;
+}
+
+.itemHover{
+	position: absolute;
+    display: inline-block;
+    height: .1em;
+    width: 7.7em;
+    background-color: #b3b3b3;
+    bottom: 0em;
+    z-index: 1;
+    transition:all 250ms;
+}
+
+.itemActive {	
+    position: absolute;
+    display: inline-block;
+    height: .1em;
+    width: 7.7em;
+    background-color: #3a3a3a;
+    bottom: 0em;
+    z-index: 2;
+    transition:all 250ms;
+}
+
+.itemSelect {	
+    
+    color:#333!important;
+    z-index: 10;
+}

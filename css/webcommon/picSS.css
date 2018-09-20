@@ -1,0 +1,92 @@
+.data-slideshow-container{
+	position: relative;
+    width: 135em;
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+.data-slideshow-mian-container{
+	position: relative;
+}
+
+.data-slideshow-panel{
+	height: 50em;
+}
+
+.data-slideshow-panel:hover{
+	cursor: pointer;
+}
+
+.data-slideshow-img-item{
+	position: absolute;
+	/* opacity:0; */
+	transition:all 250ms;
+}
+
+.data-slideshow-img{
+	
+}
+
+.data-slideshow-status-container{
+	margin: 0 10em;
+	position: relative;
+}
+
+.data-slideshow-status-panel{
+	user-select:none;
+	position: relative;
+	z-index: 1;
+}
+
+.data-slideshow-status-item{
+	display: inline-block;
+    height: 0.3em;
+    width: 24.8%;
+    background-color: #eeeeee;
+}
+
+.data-slideshow-status-item:hover{
+	cursor: pointer;
+}
+
+.arrow{
+	position: absolute;
+	top: 45%;
+	font-size: 5em;
+	color: #e5e5e5;
+	user-select:none;
+	transition:all 250ms;
+}
+
+.arrow:hover{
+	cursor: pointer;
+	color: #333;
+}
+
+.leftArrow{
+	left:-.4em;
+}
+
+.rightArrow{
+	right:-.4em;
+}
+
+.lineSelect{
+	/* background-color: #838383; */
+}
+
+.lineHover{
+	display: inline-block;
+    height: 0.3em;
+    width: 24.8%;
+	background-color: #838383;
+	position: absolute;
+	left: 0;
+	z-index: 10;
+	top: 0.8em;
+	transition:all 250ms;
+}
+
+.lineHover:hover{
+	cursor: pointer;
+}

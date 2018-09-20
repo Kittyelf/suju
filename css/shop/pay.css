@@ -1,0 +1,296 @@
+body{
+	background-color: #f2f2f2;
+}
+
+/* 页脚上部分的样式 */
+.tabcontainer{
+	background-color: #f2f2f2;
+	margin-top: -2.5em;
+}
+
+.tabpanel{
+	width: 70em;
+	margin: 3em auto 0;
+	user-select:none;
+	position: relative;
+	height: 25em;
+}
+
+.tabpanel-item{
+	display: inline-block;
+	width: 14em;
+	position: absolute;
+	top: 0;
+	padding: 3em 0 0 0;
+}
+
+.tabpanel-item-title{
+	font-size: .8em;
+	color:#666;
+}
+
+.tabpanel-item ul{
+	padding: 1em 0;
+}
+
+.tabpanel-item li{
+	font-size: .8em;
+	color:#999;
+	padding: .3em 0;
+}
+
+.tabpanel-item li:hover{
+	cursor: pointer;
+	text-decoration: underline;
+}
+
+.tabpanel-item.item2{
+	left: 14em;
+}
+
+.tabpanel-item.item3{
+	left: 28em;
+}
+
+.tabpanel-item.item4{
+	left: 42em;
+}
+
+.tabpanel-item.item5{
+	left: 56em;
+}
+
+/* 副标题 */
+.data-suju-pay-subTitle{
+	width: 70em;
+    margin: 5em auto 0;
+    border: 0;
+    box-shadow: 0.07142857142857142em 0 0 0 #d2d2d2, -0.07142857142857142em 0 0 0 #d2d2d2, 0 0.07142857142857142em 0 0 #b6b6b6, 0 0.14285714285714285em 0 0 #d2d2d2, 0.14285714285714285em 0 0 0 #e6e6e6, -0.14285714285714285em 0 0 0 #e6e6e6, 0 0.21428571428571427em 0 0 #e6e6e6, 0 -0.07142857142857142em 0 0 #e6e6e6;
+    background: #fff;
+    border-radius: 0.2857142857142857em;
+}
+
+.pay-subTitle-txt{
+	font-size: 1.3em;
+    padding: 0.7em 1em;
+}
+
+.data-suju-pay-container{
+	width: 70em;
+    margin: 0.8em auto 0;
+    border: 0;
+    box-shadow: 0.07142857142857142em 0 0 0 #d2d2d2, -0.07142857142857142em 0 0 0 #d2d2d2, 0 0.07142857142857142em 0 0 #b6b6b6, 0 0.14285714285714285em 0 0 #d2d2d2, 0.14285714285714285em 0 0 0 #e6e6e6, -0.14285714285714285em 0 0 0 #e6e6e6, 0 0.21428571428571427em 0 0 #e6e6e6, 0 -0.07142857142857142em 0 0 #e6e6e6;
+    background: #fff;
+    border-radius: 0.2857142857142857em;
+    padding: 1em;
+    position: relative;
+}
+
+.data-suju-pay-tip i{
+	position: absolute;
+	font-size: 3em;
+	color: #0070c9;
+	top: 0.6em;
+    left: 0.6em;
+}
+
+.tip-order-id{
+	padding: 0.8em 0 0.4em 4.5em;
+	color: #666;
+}
+
+.tip-id-txt{
+	
+}
+
+.tip-order-time{
+	padding-left: 4.5em;
+	color: #666;
+}
+
+.tip-time-txt{
+	color: #0070c9;
+}
+
+.tip-order-realMoney{
+    position: absolute;
+    color: #333;
+    font-weight: 550;
+    top: 1.5em;
+    right: 1.5em;
+}
+
+.tip-realMoney-txt{
+	color: #0070c9;
+    font-size: 1.3em;
+    padding: 0 0.5em;
+}
+
+.data-suju-pay-panel{
+	overflow: hidden;
+    border: .1em solid #f2f2f2;
+    margin: 5em 1em 1em;
+    padding: 2em 2em;
+}
+
+.pay-item{
+	position: relative;
+    color: #0070c9;
+    display: inline-block;
+}
+
+.pay-item-txt{
+	padding: 0em 1.7em;
+}
+
+.checkSelect{
+	display: inline-block;
+    position: absolute;
+}
+
+.pay-price{
+	display: inline-block;
+    float: right;
+}
+
+.pay-price-txt{
+	color: #0070c9;
+    padding: 0 0.3em;
+}
+
+.data-suju-pay-footer{
+	padding: 1em;
+}
+
+.pay-footer-tip{
+	padding: 1em 0;
+    color: #666;
+    font-weight: 550;
+}
+
+.pay-footer-input{
+	
+}
+
+#pay-password{
+	
+}
+
+.pay-footer-btn{
+	position: relative;
+}
+
+.pay-btn{
+	padding: 0.45em 1.8em;
+    border-radius: .3em;
+    background: #34A7E8;
+    background: -webkit-linear-gradient(#34A7E8, #1A88D8);
+    background: -o-linear-gradient(#34A7E8, #1A88D8);
+    background: -moz-linear-gradient(#34A7E8, #1A88D8);
+    background: linear-gradient(#34A7E8, #1A88D8);
+    border: .1em solid #1992D9;
+    margin: 1em 0 1em 0;
+}
+
+.pay-btn:hover{
+	cursor: pointer;
+	background: #1a6bd6;
+	background: -webkit-linear-gradient(#2f90d5, #0351b7);
+	background: -o-linear-gradient(#2f90d5, #0351b7);
+	background: -moz-linear-gradient(#2f90d5, #0351b7);
+	background: linear-gradient(#2f90d5, #0351b7);
+}
+
+.pay-btn:active{
+	cursor: pointer;
+	-webkit-box-shadow: 0 .07em 0 #fff, inset 0 0 .7em rgba(0, 0, 0, 0.5);
+	-moz-box-shadow: 0 .07em 0 #fff, inset 0 0 .75em rgba(0, 0, 0, 0.5);
+	box-shadow: 0 .07em 0 #fff, inset 0 0 .75em rgba(0, 0, 0, 0.5);
+}
+
+.pay-btn-tip{
+	position: absolute;
+	color: #0070c9;
+    top: 2.1em;
+    left: 8.4em;
+}
+
+.pay-btn-tip:visited{
+	color:#0070c9;
+}
+
+.pay-btn-tip:hover{
+	color:#0070c9;
+	text-decoration: underline;
+	cursor: pointer;
+}
+
+/* 购买结果 */
+.data-suju-pry-success-tip{
+	position: relative;
+    /* height: 15em; */
+    margin: 6em 10em;
+    text-align: center;
+}
+
+.data-suju-pry-success-tip i{
+	font-size: 3em;
+    color: #0070c9;
+    /* position: absolute; */
+    /* top: 1.5em; */
+    /* left: 8em; */
+}
+
+.sucess-tip{
+	display: inline-block;
+    /* position: absolute; */
+    /* top: 5.5em; */
+    /* left: 28em; */
+    vertical-align: super;
+    padding: 0 1.5em;
+}
+
+.sucess-tip-sub{
+	/*display: inline-block; */
+    /* position: absolute; */
+    /* top: 8.5em; */
+    /* left: 25em; */
+    padding: 0.3em;
+}
+
+.pay-success-price{
+	font-weight: 550;
+    color: #0070c9;
+    padding: 0 0.3em;
+}
+
+.data-suju-pay-success-btn{
+	text-align: center;
+    padding-bottom: 4em;
+}
+
+.goto-order,.goto-index{
+	margin: 0 3em;
+	padding: 0.45em 1.8em;
+    border-radius: .3em;
+    background: #34A7E8;
+    background: -webkit-linear-gradient(#34A7E8, #1A88D8);
+    background: -o-linear-gradient(#34A7E8, #1A88D8);
+    background: -moz-linear-gradient(#34A7E8, #1A88D8);
+    background: linear-gradient(#34A7E8, #1A88D8);
+    border: .1em solid #1992D9;
+}
+
+.goto-order:hover,.goto-index:hover{
+	background: #1a6bd6;
+	background: -webkit-linear-gradient(#2f90d5, #0351b7);
+	background: -o-linear-gradient(#2f90d5, #0351b7);
+	background: -moz-linear-gradient(#2f90d5, #0351b7);
+	background: linear-gradient(#2f90d5, #0351b7);
+}
+
+.goto-order:active,.goto-index:active{
+	-webkit-box-shadow: 0 .07em 0 #fff, inset 0 0 .7em rgba(0, 0, 0, 0.5);
+	-moz-box-shadow: 0 .07em 0 #fff, inset 0 0 .75em rgba(0, 0, 0, 0.5);
+	box-shadow: 0 .07em 0 #fff, inset 0 0 .75em rgba(0, 0, 0, 0.5);
+}

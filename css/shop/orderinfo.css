@@ -1,0 +1,206 @@
+body{
+	background-color: #f2f2f2;
+}
+
+/* 页脚上部分的样式 */
+.tabcontainer{
+	background-color: #f2f2f2;
+	margin-top: -2.5em;
+}
+
+.tabpanel{
+	width: 70em;
+	margin: 3em auto 0;
+	user-select:none;
+	position: relative;
+	height: 25em;
+}
+
+.tabpanel-item{
+	display: inline-block;
+	width: 14em;
+	position: absolute;
+	top: 0;
+	padding: 3em 0 0 0;
+}
+
+.tabpanel-item-title{
+	font-size: .8em;
+	color:#666;
+}
+
+.tabpanel-item ul{
+	padding: 1em 0;
+}
+
+.tabpanel-item li{
+	font-size: .8em;
+	color:#999;
+	padding: .3em 0;
+}
+
+.tabpanel-item li:hover{
+	cursor: pointer;
+	text-decoration: underline;
+}
+
+.tabpanel-item.item2{
+	left: 14em;
+}
+
+.tabpanel-item.item3{
+	left: 28em;
+}
+
+.tabpanel-item.item4{
+	left: 42em;
+}
+
+.tabpanel-item.item5{
+	left: 56em;
+}
+
+#data-suju-subTitle-bg-img{
+    background: url(../../img/sr_bg.jpg) center center no-repeat;
+    height: 22em;
+}
+
+/* 订单页面副标题的样式 */
+#data-suju-orderinfo-subTitle-container {
+	
+}
+
+.data-suju-orderinfo-subTitle-container {
+	width: 70em;
+    margin: 5em auto 0;
+    border: 0;
+    box-shadow: 0.07142857142857142em 0 0 0 #d2d2d2, -0.07142857142857142em 0 0 0 #d2d2d2, 0 0.07142857142857142em 0 0 #b6b6b6, 0 0.14285714285714285em 0 0 #d2d2d2, 0.14285714285714285em 0 0 0 #e6e6e6, -0.14285714285714285em 0 0 0 #e6e6e6, 0 0.21428571428571427em 0 0 #e6e6e6, 0 -0.07142857142857142em 0 0 #e6e6e6;
+    background: #fff;
+    border-radius: 0.2857142857142857em;
+}
+
+.orderinfo-subTitle-txt {
+	font-size: 1.3em;
+    padding: 0.7em 1.1em;
+}
+
+/* 结算页面样式 */
+#data-suju-orderinfo-container{
+	
+}
+
+.data-suju-orderinfo-container{
+	width: 70em;
+    margin: 0 auto;
+    border: 0;
+    box-shadow: 0.07142857142857142em 0 0 0 #d2d2d2, -0.07142857142857142em 0 0 0 #d2d2d2, 0 0.07142857142857142em 0 0 #b6b6b6, 0 0.14285714285714285em 0 0 #d2d2d2, 0.14285714285714285em 0 0 0 #e6e6e6, -0.14285714285714285em 0 0 0 #e6e6e6, 0 0.21428571428571427em 0 0 #e6e6e6, 0 -0.07142857142857142em 0 0 #e6e6e6;
+    background: #fff;
+    border-radius: 0.2857142857142857em;
+}
+
+/* 收货人信息 */
+
+.consignee-msg-panel{
+	padding: 1em 0;
+	border-bottom: .0625em solid #e5e5e5;
+	margin: 0 1.5em;
+	position: relative;
+}
+
+.consignee-msg-title{
+	font-weight: 550;
+}
+
+.consignee-add-link{
+	position: absolute;
+    font-size: .8em;
+    top: 1.5em;
+    right: 1em;
+    color: #0070c9;
+}
+
+.consignee-add-link:hover{
+	cursor: pointer;
+	text-decoration: underline;
+}
+
+#consignee-address{
+	width: 100%;
+}
+
+/* 支付方式 */
+
+.pay-method-panel{
+	padding: 1em 0;
+    border-bottom: .0625em solid #e5e5e5;
+    margin: 0 1.5em;
+    position: relative;
+}
+
+.pay-method-title{
+    font-weight: 550;
+}
+
+.pay-balance{
+	display: inline-block;
+    padding: 0.35em 1.2em;
+    border: 0.15em solid #0070c9;
+    color: #0070c9;
+    margin: 1em 2.1em;
+    position: relative;
+}
+
+.pay-balance:hover{
+	cursor: pointer;
+}
+
+.recharge{
+	font-size: 0.8em;
+    display: inline-block;
+    color:#999;
+    position: absolute;
+    top: 5em;
+    left: 11em;
+}
+
+.recharge:hover{
+	cursor: pointer;
+	text-decoration: underline;
+	color: #0070c9;
+}
+
+.arrow-icon{
+	position: absolute;
+    display: inline-block;
+    border: 0.8em solid #0070c9;
+    border-top-color: transparent;
+    border-left-color: transparent;
+    bottom: 0;
+    right: 0;
+}
+
+.arrow-icon i{
+	position: absolute;
+    color: #fff;
+    font-size: 0.8em;
+    bottom: -0.9em;
+    right: -0.9em;
+}
+
+/* 送货清单 */
+.goods-msg-panel{
+	padding: 1em 0;
+	border-bottom: .0625em solid #e5e5e5;
+	margin: 0 1.5em;
+	position: relative;
+	overflow: hidden;
+}
+
+.goods-msg-title{
+	font-weight: 550;
+}
+
+#orderInfoList{
+	width: 62em;
+    margin: 2em auto;
+}

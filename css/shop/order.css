@@ -1,0 +1,112 @@
+body{
+	background-color: #f2f2f2;
+}
+
+/* 页脚上部分的样式 */
+.tabcontainer{
+	background-color: #f2f2f2;
+	margin-top: -2.5em;
+}
+
+.tabpanel{
+	width: 70em;
+	margin: 3em auto 0;
+	user-select:none;
+	position: relative;
+	height: 25em;
+}
+
+.tabpanel-item{
+	display: inline-block;
+	width: 14em;
+	position: absolute;
+	top: 0;
+	padding: 3em 0 0 0;
+}
+
+.tabpanel-item-title{
+	font-size: .8em;
+	color:#666;
+}
+
+.tabpanel-item ul{
+	padding: 1em 0;
+}
+
+.tabpanel-item li{
+	font-size: .8em;
+	color:#999;
+	padding: .3em 0;
+}
+
+.tabpanel-item li:hover{
+	cursor: pointer;
+	text-decoration: underline;
+}
+
+.tabpanel-item.item2{
+	left: 14em;
+}
+
+.tabpanel-item.item3{
+	left: 28em;
+}
+
+.tabpanel-item.item4{
+	left: 42em;
+}
+
+.tabpanel-item.item5{
+	left: 56em;
+}
+
+#data-suju-subTitle-bg-img{
+    background: url(../../img/sr_bg.jpg) center center no-repeat;
+    height: 22em;
+}
+
+/* 订单页面副标题的样式 */
+#data-suju-order-subTitle-container{
+	
+}
+
+.data-suju-order-subTitle-container{
+	width: 70em;
+    margin: 5em auto 0;
+    border: 0;
+    box-shadow: 0.07142857142857142em 0 0 0 #d2d2d2, -0.07142857142857142em 0 0 0 #d2d2d2, 0 0.07142857142857142em 0 0 #b6b6b6, 0 0.14285714285714285em 0 0 #d2d2d2, 0.14285714285714285em 0 0 0 #e6e6e6, -0.14285714285714285em 0 0 0 #e6e6e6, 0 0.21428571428571427em 0 0 #e6e6e6, 0 -0.07142857142857142em 0 0 #e6e6e6;
+    background: #fff;
+    border-radius: 0.2857142857142857em;
+}
+
+.order-subTitle-txt{
+	font-size: 1.3em;
+    padding: 0.7em 0.6em;
+}
+
+#data-suju-order-container{
+	
+}
+
+.data-suju-order-container{
+	width: 70em;
+    margin: 0.8em auto 0;
+    border: 0;
+    box-shadow: 0.07142857142857142em 0 0 0 #d2d2d2, -0.07142857142857142em 0 0 0 #d2d2d2, 0 0.07142857142857142em 0 0 #b6b6b6, 0 0.14285714285714285em 0 0 #d2d2d2, 0.14285714285714285em 0 0 0 #e6e6e6, -0.14285714285714285em 0 0 0 #e6e6e6, 0 0.21428571428571427em 0 0 #e6e6e6, 0 -0.07142857142857142em 0 0 #e6e6e6;
+    background: #fff;
+    border-radius: 0.2857142857142857em;
+    padding-bottom: 1.5em;
+}
+
+#data-order-tab{
+	padding: 1.3em 0.5em 0.9em;
+    font-size: 0.8em;
+}
+
+.itemHover{
+	width: 7em;
+}
+
+.itemActive{
+	width: 7em;
+}

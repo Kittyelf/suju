@@ -1,0 +1,191 @@
+body{
+	background-color: #f2f2f2;
+}
+
+/* 页脚上部分的样式 */
+.tabcontainer{
+	background-color: #f2f2f2;
+	margin-top: -2.5em;
+}
+
+.tabpanel{
+	width: 70em;
+	margin: 3em auto 0;
+	user-select:none;
+	position: relative;
+	height: 25em;
+}
+
+.tabpanel-item{
+	display: inline-block;
+	width: 14em;
+	position: absolute;
+	top: 0;
+	padding: 3em 0 0 0;
+}
+
+.tabpanel-item-title{
+	font-size: .8em;
+	color:#666;
+}
+
+.tabpanel-item ul{
+	padding: 1em 0;
+}
+
+.tabpanel-item li{
+	font-size: .8em;
+	color:#999;
+	padding: .3em 0;
+}
+
+.tabpanel-item li:hover{
+	cursor: pointer;
+	text-decoration: underline;
+}
+
+.tabpanel-item.item2{
+	left: 14em;
+}
+
+.tabpanel-item.item3{
+	left: 28em;
+}
+
+.tabpanel-item.item4{
+	left: 42em;
+}
+
+.tabpanel-item.item5{
+	left: 56em;
+}
+
+#data-suju-subTitle-bg-img{
+    background: url(../../img/sr_bg.jpg) center center no-repeat;
+    height: 22em;
+}
+
+#data-suju-shopcar-title-panel{
+	width: 70em;
+    margin: 5em auto 0;
+    border: 0;
+    box-shadow: 0.07142857142857142em 0 0 0 #d2d2d2, -0.07142857142857142em 0 0 0 #d2d2d2, 0 0.07142857142857142em 0 0 #b6b6b6, 0 0.14285714285714285em 0 0 #d2d2d2, 0.14285714285714285em 0 0 0 #e6e6e6, -0.14285714285714285em 0 0 0 #e6e6e6, 0 0.21428571428571427em 0 0 #e6e6e6, 0 -0.07142857142857142em 0 0 #e6e6e6;
+    background: #fff;
+    border-radius: 0.2857142857142857em;
+	position: relative;
+}
+
+#data-suju-shopcar-title-panel .title-txt{
+	user-select: none;
+    color: #333;
+    font-size: 1.3em;
+    padding: 0.7em 1.5em;
+    display: inline-block;
+}
+
+#data-suju-shopcar-title-panel i{
+	position: absolute;
+    top: 1.3em;
+    left: 7em;
+}
+
+#data-suju-shopcar-panel{
+	width: 70em;
+    margin: .8em auto 0;
+    border: 0;
+    box-shadow: 0.07142857142857142em 0 0 0 #d2d2d2, -0.07142857142857142em 0 0 0 #d2d2d2, 0 0.07142857142857142em 0 0 #b6b6b6, 0 0.14285714285714285em 0 0 #d2d2d2, 0.14285714285714285em 0 0 0 #e6e6e6, -0.14285714285714285em 0 0 0 #e6e6e6, 0 0.21428571428571427em 0 0 #e6e6e6, 0 -0.07142857142857142em 0 0 #e6e6e6;
+    background: #fff;
+    border-radius: 0.2857142857142857em;
+	position: relative;
+	margin-bottom: 5em;
+}
+
+.shopcar-panel-title-line{
+	width: 55em;
+    margin: 0 auto;
+    border-bottom: .1em solid #e5e5e5;
+    font-size: 1.2em;
+    padding: 1em 0.1em 0.5em;
+}
+
+.data-suju-shopcar-panel-footer{
+	padding: 1em 2em;
+    border-top: .1em solid #e5e5e5;
+    background: -webkit-gradient(linear,left top,left bottom,from(white),to(#ececec));
+    background: -moz-linear-gradient(#fff,#ebebeb) repeat scroll 0 0 transparent;
+    background: linear-gradient(#fff,#ebebeb) repeat scroll 0 0 transparent;
+    -webkit-border-radius: 0 0 .3em .3em;
+    -moz-border-radius: 0 0 .3em .3em;
+    user-select: none;
+}
+
+.data-suju-shopcar-panel-footer{
+	
+}
+
+.shopcar-panel-ul{
+	display: inline-block;
+}
+
+.shopcar-panel-li{
+	display: inline-block;
+    color: #0070c9;
+    padding: 0 0.4em 0 0.6em;
+}
+
+.shopcar-panel-li:hover{
+	text-decoration: underline;
+}
+
+.data-suju-shopcar-panel-footer li+li{
+	border-left: .1em solid #c2c2c2;
+}
+
+.data-suju-pay-btn{
+	margin-left: 30.2em;
+    padding: .5em 3em;
+    border-radius: .3em;
+	background: #34A7E8;
+	background: -webkit-linear-gradient(#34A7E8, #1A88D8);
+	background: -o-linear-gradient(#34A7E8, #1A88D8);
+	background: -moz-linear-gradient(#34A7E8, #1A88D8);
+	background: linear-gradient(#34A7E8, #1A88D8);
+	border: .1em solid #1992D9;
+}
+
+.data-suju-pay-btn:hover{
+	cursor: pointer;
+	background: #1a6bd6;
+	background: -webkit-linear-gradient(#2f90d5, #0351b7);
+	background: -o-linear-gradient(#2f90d5, #0351b7);
+	background: -moz-linear-gradient(#2f90d5, #0351b7);
+	background: linear-gradient(#2f90d5, #0351b7);
+}
+
+.data-suju-pay-btn:active{
+	cursor: pointer;
+	-webkit-box-shadow: 0 .07em 0 #fff, inset 0 0 .7em rgba(0, 0, 0, 0.5);
+	-moz-box-shadow: 0 .07em 0 #fff, inset 0 0 .75em rgba(0, 0, 0, 0.5);
+	box-shadow: 0 .07em 0 #fff, inset 0 0 .75em rgba(0, 0, 0, 0.5);
+}
+
+.shopcar-panel-shopcarlist{
+    width: 65.9em;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+.errorInput{
+	box-shadow: inset 0 0.08em 0.15em red!important;
+	border-color: #ff8686!important;
+}
+
+.errorTxt{
+	display: inline-block;
+    font-size: 1em;
+    color: red;
+    position: absolute;
+    bottom: 1.15em;
+    left: 38.8em;
+
+}

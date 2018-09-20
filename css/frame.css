@@ -1,0 +1,194 @@
+body {
+	min-width: none;
+	overflow-y: hidden;
+	background-color: #fff;
+}
+
+#data-frame-mian {
+	width: 100%;
+	height: 100%;
+}
+
+#data-frame-nav {
+    height: 3em;
+    background-color: #c2c2c2;
+    font-size: 1.2em;
+    position: relative;
+}
+
+.data-frame-title-container {
+	vertical-align: top;
+}
+
+.data-frame-logo-panel {
+	display: inline-block;
+	font-size: 1.3em;
+    padding: 0 1.5em;
+    user-select:none;
+    color: #333;
+}
+
+.fa.fa-apple {
+	padding-right: .2em;
+}
+
+.data-frame-welcome-panel {
+	display: inline-block;
+	position: absolute;
+	top: 0.7em;
+	right: 11em;
+}
+
+.fa.fa-user-o {
+	-webkit-text-stroke: .0625em #333;
+}
+
+#welcome_username {
+	
+}
+
+.data-frame-message-panel {
+    display: inline-block;
+    position: absolute;
+    top: 0.8em;
+    right: 6.5em;
+}
+
+.fa.fa-envelope-o {
+	-webkit-text-stroke: .0625em #333;
+}
+
+.data-frame-btn-panel {
+    display: inline-block;
+    position: absolute;
+    top: 0.8em;
+    right: 2em;
+}
+
+.fa.fa-power-off {
+	
+}
+
+.data-frame-message-panel:hover,.data-frame-welcome-panel:hover,.data-frame-btn-panel:hover{
+	cursor: pointer;
+	color: #808080;
+}
+
+#data-frame-leftMenu {
+    width: 15em;
+    vertical-align: top;
+    background-color: #323942;
+}
+
+.data-frame-left-panel-lime{
+	color: #fff;
+    font-size: 1.1em;
+    margin: 0 3em 0.5em;
+    user-select:none;
+}
+
+.data-frame-left-panel-lime:hover{
+	cursor: pointer;
+	text-decoration: underline;
+}
+
+.data-frame-left-panel-lime i{
+	padding-left: 0.5em;
+}
+
+.data-frame-left-panel img{
+	width: 10em;
+    height: 10em;
+    margin: 1em 2.2em;
+    border-radius: 5em;
+}
+
+ .data-frame-menu a{
+	color: #ccc;
+	user-select:none;
+	display: inline-block;
+    padding-left: 0.7em;
+}
+
+.data-frame-menu a:hover{
+	cursor: pointer;
+}
+
+#data-frame-rightContainer {
+	vertical-align: top;
+}
+
+#data-frame-rightContainer-mainIframe{
+	height: 100%;
+	width: 100%;
+	border: 0;
+	min-width:106.5em;
+}
+.data-frame-menu i{
+    font-size: 1.1em;
+}
+
+.data-frame-menu .menu-txt{
+	display: inline-block;
+    padding: .1em 0.5em;
+}
+
+.data-frame-menu:hover{
+	cursor: pointer;
+}
+
+/* #dialog-div{
+	position: absolute;
+	top: 50%;
+	left:50%;
+	margin-top: -11em;
+    margin-left: -20em;
+    width: 40em;
+    height: 22em;
+	background-color: #fff;
+	z-index: 999;
+}
+
+#dialog-mask{
+	position: absolute;
+	top: 0;
+	left:0;
+	width: 100%;
+	height: 100%;
+	background-color: #000;
+	z-index: 998;
+	opacity:.4;
+}
+
+.dialog-bar{
+	position: relative;
+	height: 2.3em;
+    border-bottom: .05em solid #e5e5e5;
+}
+
+.bar-title{
+    position: absolute;
+    font-size: 1.3em;
+    padding: 0.2em 1em;
+}
+
+.bar-close{
+	position: absolute;
+    font-size: 1.2em;
+    padding: 0.2em 1em;
+    right: 0;
+}
+
+.bar-close:hover{
+	cursor: pointer;
+}
+
+.dialog-mes{
+	width: 100%;
+	height: 100%;
+}
+
+#dialog-page{
+	width: 100%;
+	height: 100%;
+} */

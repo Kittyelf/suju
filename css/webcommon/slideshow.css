@@ -1,0 +1,74 @@
+#slideshow{
+	width: 135em;
+    height: 50em;
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+}
+
+#banner{
+	width: 540em;
+    overflow: hidden;
+    position: relative;
+    left: 0;
+    transition: all 250ms;
+
+}
+
+.bannerlist{
+	float: left;
+}
+
+.leftArrow{
+	left:0;
+}
+
+.rightArrow{
+	right:0;
+}
+
+.leftArrow,.rightArrow{
+	position: absolute;
+    font-size: 5em;
+    font-weight: 300;
+    top: 42%;
+    color: #dedede;
+    user-select:none;
+    padding: 0 0.2em;
+}
+
+.leftArrow:hover,.rightArrow:hover{
+	cursor: pointer;
+	color: #333;
+	font-weight: 400;
+}
+
+.bottomline-list ul{
+	width: 100%;
+	overflow: hidden;
+}
+
+.bottomline{
+	width: 25%;
+    position: relative;
+    float:left;
+    background-color: #fff;
+    height: .2em;
+}
+
+.lineSelect{
+	background-color: #b1b1b1!important;
+}
+
+.bottomline:hover{
+	background-color: #e5e5e5;
+	cursor: pointer;
+}
+
+.bottomline-list{
+	margin-top: -.5em;
+}
+
+/* .arrowErr{
+	display: none;
+} */

@@ -1,0 +1,52 @@
+.super-register-subnav-container {
+	background-color: #f1f1f1;
+	color: #3A3938;
+}
+
+.super-register-subnav-panel {
+	width: 70em;
+	margin: 0 auto;
+	position: relative;
+	user-select: none;
+	height: 4.5em;
+}
+
+.txt-left {
+	display: inline-block;
+	padding: 0.8em 0 0;
+	font-size: 1.5em;
+	font-weight: 550;
+	position: absolute;
+	left: 1em;
+}
+
+.super-register-subnav-panel ul {
+	display: inline-block;
+	position: absolute;
+	right: 0;
+	font-size: .8em;
+}
+
+.super-register-subnav-panel li {
+	float: left;
+	display: inline-block;
+	padding: 2em 2em;
+}
+
+.super-register-subnav-panel li:hover {
+	text-decoration: underline;
+	cursor: pointer;
+}
+
+#data-li-register {
+	color: #999;
+}
+
+#data-li-register:hover {
+	text-decoration: none;
+	cursor: auto;
+}
+
+#data-li-login a {
+	color: #333;
+}

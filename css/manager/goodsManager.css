@@ -1,0 +1,136 @@
+/* 表格导航部分的样式以及整体的padding效果 */
+body {
+	padding: 1em;
+}
+
+h1 {
+	font-size: 1.4em;
+	font-weight: normal;
+	padding-bottom: .7em;
+}
+
+.subTitle {
+	font-size: .8em;
+	color: gray;
+	padding-bottom: 1.5em;
+}
+
+#condition {
+	height: 10em;
+}
+
+.col {
+	width: 33.3333333%;
+	float: left;
+}
+
+.lblCol {
+	float: left;
+	width: 5em;
+}
+
+.txtCol {
+	margin-left: 5em;
+	padding-right: 1.5em;
+	height: 2em;
+}
+
+.lblCol label {
+	padding: 0.6em 0 0.9em 0;
+	display: block;
+}
+
+.txtRow {
+	margin-bottom: .5em;
+}
+
+.txt {
+	width: 100%;
+	background-color: #fcfcfc;
+	border: 0.08em solid #d0d0d0;
+}
+
+.conditionSlt {
+	width: 8em;
+	float: left;
+}
+
+.gridTitleBtnContainer{
+	text-align: right;
+    margin-top: -3em;
+}
+
+.gridTitleBtn{
+	padding: .5em 1.5em;
+}
+
+.pl {
+	padding-left: 8.5em;
+}
+
+/* 调整下拉列表的样式 */
+.selectList{
+	width: 100.5%;
+    left: -0.1em;
+	border: 0.07142857142857142em solid #d6d6d6;
+}
+
+.ddlTitle {
+    padding: 0.5em 0.7em;
+}
+
+.ddl {
+    border: 0.07142857142857142em solid #d6d6d6;
+}
+
+.arrow {
+    top: 1em;
+    right: 0.6em;
+}
+
+#ddlPageSize .selectList{
+	left:-.1em;
+	width: 102%;
+}
+
+/* 为小下拉列表单独设置的宽度 */
+#sltStock .selectList,#sltPrice .selectList,#sltSales .selectList{
+	width: 8em;
+}
+
+/* 商品描述信息的相关样式 */
+.desContainer {
+	position: relative;
+}
+
+.shortDes {
+	text-decoration: underline;
+	color: #212a35;
+}
+
+.selectDes{
+	color:#fff;
+}
+
+.longDes {
+	border: 0.07em solid #d1d1d1;
+    background-color: #f6f7f8;
+    padding: .5em 1em;
+    color: #666;
+    box-shadow: 0.2em 0.2em #e5e5e5;
+}
+
+.longDesContainer {
+	position: absolute;
+	width: 20em;
+	z-index: 1;
+	opacity:0;
+	left:90%;
+	transition: all 250ms;
+	top:0;
+}
+
+.desShow {
+	opacity:1;
+	left:100%;
+}

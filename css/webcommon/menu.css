@@ -1,0 +1,60 @@
+.data-suju-menu-container{
+	position: relative;	
+}
+
+.data-frame-menu-list{
+	margin-top: 1.5em;
+    border-top: 0.01em solid #323942;
+}
+
+.data-frame-menu{
+	color: #bbbbbb;
+    user-select: none;
+    font-size: 1.2em;
+    padding: 0.8em 0 0.8em 1.8em;
+    position: relative;
+    transition:all 250ms;
+    z-index: 10;
+}
+
+.data-frame-menu-arrow{
+	display: inline-block;
+    position: absolute;
+    width: 0;
+    height: 0;
+    border: 0.5em solid #fff;
+    border-color: transparent #fff transparent transparent;
+    right: 0;
+    top: 1em;
+    display: none;
+    transition:all 250ms;
+}
+
+.arrowselect{
+	display: block!important;
+}
+
+.selectMenu{
+    background-color: #212A35!important;
+    color: #fff!important;
+}
+
+.data-suju-activeItem{
+	position: absolute;
+	width: 100%;
+	height: 3.7535714285714286em;
+	 background-color: #212A35!important;
+	top:0;
+	transition:all 250ms;
+	z-index: 2;
+}
+
+.data-suju-hoverItem{
+	position: absolute;
+	width: 100%;
+	height: 3.7535714285714286em;
+	background-color: #212A35!important;
+	top:0;
+	transition:all 250ms;
+	z-index: 1;
+}
