@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>登录 - SUJU（中国）</title>
+    <link rel="stylesheet" href="./../css/common/common.css" type="text/css"></link>
+    <link rel="stylesheet" href="./../css/common/font-awesome.css" type="text/css"></link>
+    <link rel="stylesheet" href="./../css/webcommon/header.css" type="text/css"></link>
+    <link rel="stylesheet" href="./../css/login.css" type="text/css"></link>
+    <link rel="stylesheet" href="./../css/webcommon/footer.css" type="text/css"></link>
+    <script type="text/javascript" src="./../js/common/jquery-1.12.0.min.js"></script>
+    <script type="text/javascript" src="./../js/common/util.js"></script>
+    <script type="text/javascript" src="./../js/login.js"></script>
+</head>
+<body>
+<div class="header_container">
+    <div class="header_panel">
+        <ul class="header_ul">
+            <li class="header_li">
+                <i class="fa fa-circle"></i>
+            </li>
+            <li class="header_li">
+                <a>Mac</a>
+            </li>
+            <li class="header_li">
+                <a>iPad</a>
+            </li>
+            <li class="header_li">
+                <a>iPhone</a>
+            </li>
+            <li class="header_li">
+                <a>Watch</a>
+            </li>
+            <li class="header_li">
+                <a>Music</a>
+            </li>
+            <li class="header_li">
+                <a>技术支持</a>
+            </li>
+            <li class="header_li">
+                <i class="fa fa-search"></i>
+            </li>
+            <li class="header_li">
+                <i class="fa fa-shopping-bag"></i>
+            </li>
+        </ul>
+    </div>
+</div>
+
+<div id="personal-center-container">
+    <ul class="personal-center-panel">
+        <li class="personal-center-item shopbag"><i class="fa fa-shopping-bag"></i>购物袋</li>
+        <li class="personal-center-item userorder"><i class="fa fa-cube"></i>订单</li>
+        <li class="personal-center-item usercenter"><i class="fa fa-user-o"></i>小仙女</li>
+        <li class="personal-center-item register"><i class="fa fa-cog"></i>注册</li>
+        <li class="personal-center-item exit"><i class="fa fa-power-off"></i>注销</li>
+    </ul>
+</div>
+
+<div class="login_mian_container">
+    <div class="login_container_panel">
+        <div class="login_mian_panel">
+            <div class="data-login-title-line">
+                <h1 class="data-title-txt-left">请登录</h1>
+                <span class="data-title-txt-right"> <i class="fa fa-lock"></i>安全
+					</span>
+            </div>
+            <div class="data-login-mian-panel">
+                <div class="data-panel-right">
+                    <h2 class="title">登陆 SUJU Store</h2>
+                    <div class="placeholder-line">
+                        <input class="sujuIdTxt" type="text" placeholder="SUJU ID*" data-validate="en_" data-minLen="6" data-maxLen="20"  autocomplete="off"/>
+                        <div class="placeholder-txt">SUJU ID*</div>
+                        <div class="errorPanel id hidden">
+                            <div class="errorTxt">SUJU ID 未填写</div>
+                            <div class="errorArrow"></div>
+                        </div>
+                    </div>
+                    <div class="placeholder-line">
+                        <input class="sujuPwdTxt" type="password" placeholder="密码*"  data-validate="en_" data-minLen="6" data-maxLen="20"  autocomplete="off"/>
+                        <div class="placeholder-txt">密码*</div>
+                        <div class="errorPanel pwd hidden">
+                            <div class="errorTxt">密码 未填写</div>
+                            <div class="errorArrow"></div>
+                        </div>
+                    </div>
+                    <div class="btn-line">
+                        <label>
+                            <input id="chkRM" type="checkbox" />
+                            <span>记住密码</span>
+                        </label>
+                        <button class="btn">登录</button>
+                    </div>
+                </div>
+                <div class="data-panel-left">
+                    <p class="title">你可以使用自己的 SUJU ID 来享用其他 SUJU 服务，例如</p>
+                    <ul>
+                        <li>SUJU Store</li>
+                        <li>iTunes Store</li>
+                        <li>iPhoto 打印服务</li>
+                        <li>iCloud</li>
+                    </ul>
+                    <div class="txt-line">
+                        <a class="txt" href="register.html">没有 SUJU ID？立即创建一个。</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="data-login-panel-footer">
+            <button class="cancel">取消</button>
+            <span class="txt">如果您有问题， 欢迎随时提问。<i class="fa fa-phone"></i>400-666-8800</span>
+        </div>
+    </div>
+</div>
+
+<div class="footercontainer">
+    <div class="footerpanel">
+        <div class="footer_note_line">
+            <span class="footer_text">SUJU Store 在线商店采用符合业界标准的加密技术对您提交的信息进行保密。进一步了解我们的</span>
+        </div>
+        <div class="footer_shop_line">
+	  			 <span class="footer_text">更多选购方式：前往
+	  			 <a class="bluetext">SUJU Store 零售店</a>
+	  			 致电 400-666-8800 或查找在你附近的
+	  			 <a class="bluetext">授权经销商</a>
+	  			 </span>
+        </div>
+        <div class="footer_lagel_line" style="padding: 0em 0 3em;">
+	  			<span class="footer_text" style="padding-top:0;">Copyright © 2018 SUJU Inc. 保留所有权利。
+	  			<a class="footer_text_a first">隐私政策</a>
+	  			<a class="footer_text_a">使用条款</a>
+	  			<a class="footer_text_a">销售政策</a>
+	  			<a class="footer_text_a last">网站地图</a>
+	  			</span>
+            <div class="footer_lagel_icon">
+                <a class="footer_icon_text">
+                    <img class="icon_img" src="./../img/icon_cn.png"/>中国
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
