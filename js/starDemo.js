@@ -1,0 +1,33 @@
+$(function(){
+	new Star({
+		renderTo:"star",
+		dataSource:[{
+			level:"1",
+			items:[{item:"实物与图片严重不符"},{item:"不能用"}],
+			className:"one-star"
+		},{
+			level:"2",
+			items:[{item:"商品破损严重"},{item:"颜色不好看"}],
+			className:"two-stars",
+			hidden:true
+		},{
+			level:"3",
+			items:[{item:"商品有瑕疵"},{item:"与预计效果有一定差距"}],
+			className:"three-stars",
+			hidden:true
+		},{
+			level:"4",
+			items:[{item:"颜色还可以"},{item:"可以更好"}],
+			className:"four-stars",
+			hidden:true
+		},{
+			level:"5",
+			items:[{item:"完美！"},{item:"物有所值"},{item:"会回购"}],
+			className:"five-stars",
+			hidden:true
+		}],
+		onComplete:function(){
+			
+		}
+	});
+});

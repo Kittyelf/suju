@@ -1,0 +1,47 @@
+window.onload = function(){
+	var ddl1 = new DDL({
+		"renderTo":"myddl1",
+		"dataSource":"servlet/SelectAllUser",
+		perloadItem:[{
+			id:"-1",
+			name:"--请选择--"
+		}],
+		defaultSelect:1,
+		direction:"up",
+		offset:0.02,
+		mapping:{
+			key:"id",
+			value:"name"
+		}
+	});
+	var ddl1 = new DDL({
+		"renderTo":"myddl2",
+		"dataSource":[{
+			id:0,
+			name:"朴正洙"
+		},{
+			id:1,
+			name:"金希澈"
+		},{
+			id:2,
+			name:"金钟云"
+		},{
+			id:3,
+			name:"申东熙"
+		},{
+			id:4,
+			name:"李赫宰"
+		},{
+			id:5,
+			name:"李东海"
+		},{
+			id:6,
+			name:"崔始源"
+		}],
+		perloadItem:[{
+			id:"-1",
+			name:"--请选择--"
+		}],
+		defaultSelect:-1
+	});
+};

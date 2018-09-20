@@ -1,0 +1,19 @@
+$(function(){
+	new slideshow({
+		renderTo:"wrap",
+		datasource:[{
+			index:0,
+			img:"img/slide_img1.png"
+		},{
+			index:1,
+			img:"img/slide_img2.png"
+		},{
+			index:2,
+			img:"img/slide_img3.png"
+		},{
+			index:3,
+			img:"img/slide_img4.png"
+		}],
+		name:["shoulei","xnet","member","xav"]
+	});
+});
