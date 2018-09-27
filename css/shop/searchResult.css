@@ -1,4 +1,4 @@
-/* 显示全部信息的一小条的样式 */
+/* 锟斤拷示全锟斤拷锟斤拷息锟斤拷一小锟斤拷锟斤拷锟斤拷式 */
 #data-suju-subTitle-container{
 	border-bottom: .0625em solid #d6d6d6;
 }
@@ -32,7 +32,7 @@
 	cursor: pointer;
 }
 
-/* 页脚上部分的样式 */
+/* 页锟斤拷锟较诧拷锟街碉拷锟斤拷式 */
 .tabcontainer{
 	background-color: #f2f2f2;
 	margin-top: -2.5em;
@@ -95,7 +95,7 @@
     height: 22em;
 }
 
-/*筛选栏的样式*/
+/*筛选锟斤拷锟斤拷锟斤拷式*/
 #data-suju-sub-container{
 	border-bottom: .1em solid #e5e5e5;	
 }
@@ -103,12 +103,13 @@
 .data-suju-sub-container{
 	width: 102.85714285714286em;
     margin: 0 auto;
+	width: 100%;
 }
 
 .data-suju-sub-panel{
 	display: inline-block;
     color: #666;
-    padding: 1.5em 0;
+    padding: 1.5em 1em;
     width: 49.8%;
 }
 
@@ -142,21 +143,21 @@
     color: #333;
 }
 
-/* 商品列表 */
+/* 锟斤拷品锟叫憋拷 */
 #data-goodsList-container{
-	width: 102.85714285714286em;
+	width: 100%;
     margin: 0 auto;
     position: relative;
 }
 
 #goodsList{
-	width: 87em;
-    display: inline-block;
-    margin-left: 17em;
+	width: 100%;
+	display: inline-block;
+	padding-left: 17em;
 }
 
 .as-search-filter-container{
-	padding: 2.5em 2.5em 0 0;
+	padding: 2.5em 1em 0 1em;
     display: inline-block;
     position: absolute;
 }

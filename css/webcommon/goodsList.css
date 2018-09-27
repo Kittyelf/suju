@@ -10,6 +10,7 @@
     border-bottom: 0;
     margin-top: -.1em;
     border-right: 0;
+    width: 31%;
 }
 
 .data-suju-gl-imgpanel {
@@ -18,14 +19,13 @@
 }
 
 .data-suju-gl-img {
-	width: 28.571428571428573em;
-    height: 28.571428571428573em;
+    width: 100%;
     padding: 2em;
     user-select:none;
 }
 
 .data-suju-gl-name {
-	width: 28.571428571428573em;
+    width: 100%;
     padding: 2em 4em 0;
     text-align: center;
     height: 6em;
@@ -55,7 +55,7 @@
 	
 }
 
-/* ·ÖÒ³ÑùÊ½ */
+/* ï¿½ï¿½Ò³ï¿½ï¿½Ê½ */
 .data-suju-gl-pageLine{
 	width: 20em;
 	margin: 0 auto;
@@ -114,7 +114,7 @@
 	margin: 0 .3em;
 }
 
-/* ËÑË÷½á¹ûÎª¿ÕÊ±µÄÑùÊ½  */
+/* ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Îªï¿½ï¿½Ê±ï¿½ï¿½ï¿½ï¿½Ê½  */
 .data-suju-gl-tip-panel{
 	padding: 3em 0 41em 3em;
     border-left: .0625em solid #e5e5e5;

@@ -1,6 +1,6 @@
 .data-slideshow-container{
 	position: relative;
-    width: 135em;
+    width: 100%;
     overflow: hidden;
     margin: 0 auto;
 }
@@ -11,6 +11,12 @@
 
 .data-slideshow-panel{
 	height: 50em;
+}
+
+@media screen and (max-width: 1300px) {
+	.data-slideshow-panel{
+		height: 35em;
+	}
 }
 
 .data-slideshow-panel:hover{
@@ -24,7 +30,7 @@
 }
 
 .data-slideshow-img{
-	
+	width: 100%;
 }
 
 .data-slideshow-status-container{
